@@ -12,29 +12,7 @@ const NewTodo = ({user}) => {
   
     const navigate = useNavigate()
 
-    // function handleSubmit(e) {
-    //     e.preventDefault();
-    //     setIsLoading(true);
-    //     fetch("", {
-    //       method: "POST",
-    //       headers: {
-    //         "Content-Type": "application/json",
-    //       },
-    //       body: JSON.stringify({
-    //         title,
-    //         description,
-    //         status,
-    //         priority,
-    //       }),
-    //     }).then((r) => {
-    //       setIsLoading(false);
-    //       if (r.ok) {
-    //         navigate('/');
-    //       } else {
-    //         r.json().then((err) => setErrors(err.errors));
-    //       }
-    //     });
-    //   }
+  
     return ( 
 <div className="flex flex-col justify-center md:flex-row">
   <div className="w-full md:w-1/3 md:pr-4">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "./components.css";
 
 function SignUpForm({ onLogin }) {
   const [username, setUsername] = useState("");
