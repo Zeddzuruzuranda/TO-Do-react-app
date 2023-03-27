@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import LoginPage from './LoginPage';
-import Register from './Register';
-import DeleteTodo from './DeleteTodo';
-import UpdateTodo from './UpdateTodo';
-import ListAllTodo from './ListAllTodo';
+import LoginPage from './components/LoginPage';
+import Register from './components/Register';
+import DeleteTodo from './components/DeleteTodo';
+import UpdateTodo from './components/UpdateTodo';
+import ListAllTodo from './components/ListAllTodo';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('login');
