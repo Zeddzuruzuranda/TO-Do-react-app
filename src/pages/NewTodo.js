@@ -3,8 +3,8 @@ import { useNavigate} from "react-router-dom"
 
 const NewTodo = ({user}) => {
  
-    const [title, setTitle] = useState("Work out");
-    const [description, setDescription] = useState(`I want to work out from 6am to 7am.`);
+    const [title, setTitle] = useState("");
+    const [description, setDescription] = useState(``);
     const [status, setStatus] = useState([]);
     const [priority, setPriority] = useState([]);
     const [errors, setErrors] = useState([]);
